@@ -43,8 +43,8 @@ merge:
   # will be used for PRs targeting that branch. The valid values are the same as for the "method" key.
   # Note: If the target branch does not match any of the specified keys, the "method" key is used instead.
   branch_method:
-    develop: squash
-    master: merge
+    develop: merge
+    master: squash
 
   # "options" defines additional options for the individual merge methods.
   options:
